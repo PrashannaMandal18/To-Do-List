@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern To-Do</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-animation"></div>
+  <div class="container">
+    <div class="header">
+      <div class="header-top">
+        <h2>Tasks</h2>
+        <nav class="nav-bar">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="about.html" class="nav-link">About Me</a>
+        </nav>
+      </div>
+      <p class="subtitle" id="taskCount">0 tasks pending</p>
+    </div>
+    <div class="input-area">
+      <div class="input-wrapper">
+        <input type="text" id="taskInput" placeholder="What needs to be done?">
+        <input type="text" id="noteInput" placeholder="Add a note (optional)..." class="note-input">
+      </div>
+      <button id="addBtn"><i class="fa-solid fa-plus"></i></button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
