@@ -1,7 +1,5 @@
 📝 To-Do List Web App
-
 A simple, modern, and user-friendly To-Do List application designed to help users manage daily tasks efficiently and improve productivity.
-
 🚀 Features
 Add new tasks with ease
 Delete tasks instantly
@@ -9,7 +7,6 @@ Mark tasks as completed
 Task timer (start/pause functionality)
 Persistent storage using Local Storage
 Clean and responsive user interface
-
 🛠️ Built With
 HTML – Structure of the application
 CSS – Styling and responsive design
